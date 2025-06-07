@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "58c40fa3-eb07-45aa-b625-f5c586edf545",
+		"name": "Prova",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44960080",
+		"_collection_link": "https://gabriel-4646105.postman.co/workspace/Gabriel's-Workspace~996c9288-7f08-400a-852f-22221a0e3233/collection/44960080-58c40fa3-eb07-45aa-b625-f5c586edf545?action=share&source=collection_link&creator=44960080"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://postman-echo.com/cookies/set?user=Gabriel",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"cookies",
+						"set"
+					],
+					"query": [
+						{
+							"key": "user",
+							"value": "Gabriel"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"gabriel@gmail.com\",\r\n  \"status\": \"ativo\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://postman-echo.com/post",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://postman-echo.com/invalid-endpoint",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"invalid-endpoint"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
