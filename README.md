@@ -81,3 +81,48 @@ it("Teste de tentativa de código postal inexistente", ()=>{
 
 <br>
 <br>
+
+# Teste de API com Postman
+Realizado no seguinte site: https://postman-echo.com/
+
+<br>
+<br>
+
+1º Teste: Get cookies
+<br>
+Esse teste verifica se o cookie foi corretamente armazenado
+
+<br>
+
+![image](https://github.com/user-attachments/assets/e3463a02-d5db-404a-8fa2-8f9a1a3c5cbd)
+
+<br>
+<br>
+2º Teste: Enviar dados e verificar a respostas
+<br>
+Esse teste envia dados no corpo da requisição e verificar se o servidor os retorna corretamente.
+
+<br>
+<br>
+Conteúdo do body
+
+```javascript
+{
+  "email": "gabriel@gmail.com",
+  "status": "ativo"
+}
+```
+
+![image](https://github.com/user-attachments/assets/a79bb0b5-949b-44d9-bd4c-f4d972bf7988)
+
+<br>
+<br>
+3º Teste: Tentando acessar endpoint inexistente
+<br>
+Esse teste verifica se é possível acessar um endpoint que não existe
+
+<br>
+<br>
+
+![image](https://github.com/user-attachments/assets/e4385433-dd4c-4624-adaf-e445a8ee395b)
+
